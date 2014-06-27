@@ -2,36 +2,36 @@
 /**
  * Sample controller.
  */
-function SampleCtrl($scope, $interval) {
+// function SampleCtrl($scope, $interval) {
 
-  // Carneirinhos
-  $scope.lambs = 1;
+//   // Carneirinhos
+//   $scope.lambs = 1;
 
-  $interval(function () {
-    $scope.lambs++;
-  }, 1500);
-}
+//   $interval(function () {
+//     $scope.lambs++;
+//   }, 1500);
+// }
 
 
 /**
  * Method controller.
  */
-function MethodCtrl($scope) {
+// function MethodCtrl($scope) {
 
-  /**
-   * Return the inverse of a string.
-   */
-  $scope.reverse = function (text) {
-    return (text || '').split('').reverse().join('');
-  }
-}
+//   /**
+//    * Return the inverse of a string.
+//    */
+//   $scope.reverse = function (text) {
+//     return (text || '').split('').reverse().join('');
+//   }
+// }
 
 
 /**
  * Inherited controller.
  */
-function InheritedCtrl($scope) {
+// function InheritedCtrl($scope) {
 
-  $scope.multiply = 2;
+//   $scope.multiply = 2;
 
-}
+// }
