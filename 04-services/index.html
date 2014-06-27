@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Angular Quick Introduction - Services</title>
+
+    <link rel="stylesheet" href="lib/bootswatch/flatly/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body ng-app="myApp" class="container">
+
+    <div class="page-header">
+      <h1>Quick Introduction <small>04-Services</small></h1>
+    </div>
+
+    <h2>Compartilhamento de Dados</h2>
+
+    <div class="row">
+      <div class="col-md-6">
+        <div class="panel panel-default"
+          ng-controller="FirstCtrl">
+          <div class="panel-heading">Controller 1</div>
+          <div class="panel-body">
+            <input ng-model="data.message" type="text" class="form-control">
+            
+            <hr>
+
+            <blockquote>
+              <p>{{data.message}}</p>
+            </blockquote>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="panel panel-default"
+          ng-controller="SecondCtrl">
+          <div class="panel-heading">Controller 2</div>
+          <div class="panel-body">
+            <input ng-model="data.message" type="text" class="form-control">
+            
+            <hr>
+
+            <blockquote>
+              <p>{{data.message}}</p>
+            </blockquote>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Le JavaScript -->
+    <script src="lib/angular/angular.js"></script>
+
+    <!-- Custom -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
