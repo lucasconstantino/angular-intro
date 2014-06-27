@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Angular Quick Introduction - Bindings</title>
+
+    <link rel="stylesheet" href="lib/bootswatch/flatly/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body ng-app class="container">
+
+    <div class="page-header">
+      <h1>Quick Introduction <small>01-Bindings</small></h1>
+    </div>
+
+    <h2>ngModel <small class="text-muted">ng-model</small></h2>
+
+    <div class="panel panel-default">
+      <div class="panel-heading">Sample</div>
+      <div class="panel-body">
+
+        <input ng-model="message" type="text" class="form-control" placeholder="A frekin' awesome message to your mom">
+        
+        <hr>
+        
+        <blockquote>
+          <p>{{message}}</p>
+        </blockquote>
+      </div>
+    </div>
+
+    <!-- Le JavaScript -->
+    <script src="lib/angular/angular.js"></script>
+  </body>
+</html>
