@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Angular Quick Introduction - Controllers</title>
+
+    <link rel="stylesheet" href="lib/bootswatch/flatly/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body ng-app class="container">
+
+    <div class="page-header">
+      <h1>Quick Introduction <small>01-Controllers</small></h1>
+    </div>
+
+    <h2>ngController <small class="text-muted">ng-controller</small></h2>
+
+    <div class="panel panel-default"
+      ng-controller="SampleCtrl">
+      <div class="panel-body">
+        <h3>{{lambs}} carneirinhos...</h3>
+      </div>
+    </div>
+
+    <hr>
+
+    <h2>Métodos</h2>
+
+    <div class="panel panel-default"
+      ng-controller="MethodCtrl">
+      <div class="panel-body">
+        <input ng-model="message" type="text" class="form-control" placeholder="A frekin' awesome message to your mom">
+        
+        <hr>
+
+        <blockquote>
+          <p>{{reverse(message)}}</p>
+        </blockquote>
+
+      </div>
+    </div>
+
+    <hr>
+
+    <h2>Herança entre controllers</h2>
+
+    <div class="panel panel-default"
+      ng-controller="SampleCtrl">
+      <div class="panel-body"
+        ng-controller="InheritedCtrl">
+        <h3>{{lambs * multiply}} carneirinhos multiplicados...</h3>
+      </div>
+    </div>
+
+    <!-- Le JavaScript -->
+    <script src="lib/angular/angular.js"></script>
+
+    <!-- Custom -->
+    <script src="js/main.js"></script>
+  </body>
+</html>

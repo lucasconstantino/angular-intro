@@ -1,0 +1,12 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/lucas\/presentations\/angular\/quick-intro\/01-binding\/sass\/main\.sass}line{font-family:\000033}}
+h1:before {
+  content: "";
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  margin-bottom: -12px;
+  margin-right: 10px;
+  background-image: url("../../../logo-angularjs-transparent.png");
+}
+
+/*# sourceMappingURL=main.css.map */
