@@ -25,13 +25,3 @@
 //     return (text || '').split('').reverse().join('');
 //   }
 // }
-
-
-/**
- * Inherited controller.
- */
-// function InheritedCtrl($scope) {
-
-//   $scope.multiply = 2;
-
-// }
