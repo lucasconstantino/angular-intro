@@ -29,6 +29,24 @@
       </div>
     </div>
 
+    <h2>ngClick <small class="text-muted">ng-click</small></h2>
+
+    <div class="panel panel-default">
+      <div class="panel-heading">Sample 2</div>
+      <div class="panel-body">
+
+        <input ng-model="number" type="text" class="form-control">
+        <br>
+        <button class="btn btn-primary btn-sm" ng-click="number = number + 1">+1</button>
+
+        <hr>
+        
+        <blockquote>
+          <p>{{number}}</p>
+        </blockquote>
+      </div>
+    </div>
+
     <!-- Le JavaScript -->
     <script src="lib/angular/angular.js"></script>
   </body>
