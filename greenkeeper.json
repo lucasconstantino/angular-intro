@@ -1,0 +1,12 @@
+{
+  "groups": {
+    "default": {
+      "packages": [
+        "01-binding/lib/bootstrap/package.json",
+        "02-controllers/lib/bootstrap/package.json",
+        "03-inheritance/lib/bootstrap/package.json",
+        "04-services/lib/bootstrap/package.json"
+      ]
+    }
+  }
+}
